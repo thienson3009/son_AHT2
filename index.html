@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./asset/css/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="contact-box">
+                    <span class="contact-btn fa fa-server"></span>
+                    <div class="contact-info">
+                        <div class="info address">
+                            <div class="icon">
+                                <i class="logo-icon logo-icon-address fa fa-map-marker"></i>
+                            </div>
+                            <div class="text">
+                                <p class="function find-us">Find us</p>
+                                <p class="need_info add">325 admiral unit, North cost, USA</p>
+                            </div>
+                        </div>
+                        <div class="info email">
+                            <div class="icon">
+                                <i class="logo-icon logo-icon-email fa fa-envelope"></i>
+                            </div>
+                            <div class="text">
+                                <p class="function email-us">Email us</p>
+                                <a href="mailto:admin@medyplus.com" class="need_info email_add">admin@medyplus.com</a>
+                            </div>
+                        </div>
+                        <div class="info phone-number">
+                            <div class="icon">
+                                <i class="logo-icon logo-icon-phone fa fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <p class="function call-us">Call Us Now</p>
+                                <a href="tel:002 - 0100 843 1112" class="need_info phone">002 - 0100 843 1112</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="language" class="language" onchange="showValue(this.value)">
+                        <ul class=" language-default ">
+                            <li class="default english ">
+                                <img src="./asset/image/English.jpg " class="flag " alt=" ">
+                                <p class="language-name ">English</p>
+                            </li>
+                        </ul>
+                        <ul id="selected-box " class="language-selection ">
+                            <li class="option vietnamese ">
+                                <img src="./asset/image/vietnam.png " class="flag " alt=" ">
+                                <p class="language-name ">Vietnamese</p>
+                            </li>
+                            <li class="option french ">
+                                <img src="./asset/image/phap.png " class="flag " alt=" ">
+                                <p class="language-name ">French</p>
+                            </li>
+                            <li class="option spanish ">
+                                <img src="./asset/image/spanish.png " class="flag " alt=" ">
+                                <p class="language-name ">Spanish</p>
+                            </li>
+                            <li class="option english ">
+                                <img src="./asset/image/English.jpg " class="flag " alt=" ">
+                                <p class="language-name ">English</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="header__mid ">
+            <div class="container ">
+                <div class="mid-box ">
+                    <div class="brand-logo ">
+                        <img src="./asset/image/logo.png " alt=" " class="brand-logo-img ">
+                    </div>
+                    <div class="search-box ">
+                        <div class="search-input ">
+                            <form action=" " class="form-input ">
+                                <div class="category ">
+                                    <select name="" id="" class="category-select">
+                                        <option value="" class="option">All category</option>
+                                        <option value="" class="option">Medicin 1</option>
+                                        <option value="" class="option">Medicin 2</option>
+                                        <option value="" class="option">Medicin 3</option>
+                                        <option value="" class="option">Medicin 4</option>
+                                    </select>
+                                    <span class="category-select-icon fa fa-sort-desc"></span>
+                                </div>
+                                <input type="text " class="input " placeholder="Search for product.... ">
+                                <div class="suggestion-box">
+                                    <ul class="suggestion-list">
+                                        <li class="suggestion">Abacavir.</li>
+                                        <li class="suggestion">Abacavir / dolutegravir / lamivudine</li>
+                                        <li class="suggestion">Abacavir / lamivudine (Epzicom®)</li>
+                                        <li class="suggestion">Acyclovir.</li>
+                                        <li class="suggestion">Alemtuzumab.</li>
+                                        <li class="suggestion">Alendronate.</li>
+                                        <li class="suggestion">Allopurinol.</li>
+                                        <li class="suggestion">Amifostine.</li>
+                                    </ul>
+                                </div>
+                                <button class="search-btn fa fa-search "></button>
+                            </form>
+                        </div>
+                        <div class="extension">
+                            <span class="extension-search fa fa-search"></span>
+                            <img src="./asset/image/setting-icon.png " alt=" " class="extension-img ">
+                            <img src="./asset/image/cart-icon.png " alt=" " class="extension-img cart">
+                            <p class="cart-item">2</p>
+                            <ul class="list-items">
+                                <li class="item">
+                                    <div class="img-box-cart">
+                                        <img src="./asset/image/sp1.png" alt="" class="item-img">
+                                    </div>
+                                    <a href="" class="item-name">Product 1</a>
+                                    <p class="item-price">$30.000</p>
+                                </li>
+                                <li class="item">
+                                    <div class="img-box-cart">
+                                        <img src="./asset/image/sp2.png" alt="" class="item-img">
+                                    </div>
+                                    <a href="" class="item-name">Product 2</a>
+                                    <p class="item-price">$30.000</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom ">
+            <div class="container ">
+                <div class="bottom-box ">
+                    <div id="nav" class="nav ">
+                        <img id="img-nav" src="./asset/image/category-btn.png " alt=" " class="img-nav">
+                        <h3 class="nav-name ">Categories</h3>
+                    </div>
+                    <ul id="categories-open" class="categories-open active">
+                        <li class="list-item">
+                            <a href="#" class="link-list-item">Baby & Child Care
+                            <i class="btn-right fa fa-angle-right"></i>
+                        </a>
+                        </li>
+                        <ul class="list-item-chlid">
+                            <li class="list-item-open"><a href="#" class="link-list-item-open">Supplement</a></li>
+                            <li class="list-item-open"><a href="#" class="link-list-item-open">Vitamins</a></li>
+                            <li class="list-item-open"><a href="#" class="link-list-item-open">Antioxidants</a></li>
+                        </ul>
+                        <li class="list-item"><a href="#" class="link-list-item">Sexual Health <i class="btn-right fa fa-angle-right"></i></a></li>
+                        <li class="list-item"><a href="#" class="link-list-item">Cosmetics   <i class="btn-right fa fa-angle-right"></i></a></li>
+                        <li class="list-item"><a href="#" class="link-list-item">Diet & Nutrition   <i class="btn-right fa fa-angle-right"></i></a></li>
+                        <li class="list-item"><a href="#" class="link-list-item">Gifts & Specialty  <i class="btn-right fa fa-angle-right"></i></a></li>
+                        <li class="list-item"><a href="#" class="link-list-item">Household Items </a></li>
+                        <li class="list-item"><a href="#" class="link-list-item">Medicine Cabinet </a></li>
+                        <li class="list-item"><a href="#" class="link-list-item">Natural Products </a></li>
+                    </ul>
+                    <div class="navigation ">
+                        <ul class="navigation-list ">
+                            <li class="navigation-items "><a href="# ">Home</a> </li>
+                            <li class="navigation-items "><a href="# ">About</a> </li>
+                            <li class="navigation-items "><a href="# ">Services</a> </li>
+                            <li class="navigation-items "><a href="# ">Blog</a> </li>
+                            <li class="navigation-items "><a href="# ">Page</a> </li>
+                            <li class="navigation-items "><a href="# ">Contact</a> </li>
+                        </ul>
+                    </div>
+                    <span class="caret fa fa-caret-square-o-down"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End header -->
+
+    <!-- Slider -->
+    <div class="slider ">
+        <div class="slider-box">
+            <div class="slider-contain slider-1 fade ">
+                <div class="container ">
+                    <div class="content ">
+                        <h4 class="generral content-1 ">Find any <span>Medicine</span> <br> you need!</h4>
+                        <p class="content-2 ">Free standard shipping every day</p>
+                        <a href=" " class="shop-now ">Shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-contain slider-2 fade ">
+                <div class="container ">
+                    <div class="content ">
+                        <h4 class="content-1 ">Find any <span>Medicine</span> <br> you need!</h4>
+                        <p class="content-2 ">Free standard shipping every day</p>
+                        <a href=" " class="shop-now ">Shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-contain slider-3 fade ">
+                <div class="container ">
+                    <div class="content ">
+                        <h4 class="content-1 ">Find any <span>Medicine</span> <br> you need!</h4>
+                        <p class="content-2 ">Free standard shipping every day</p>
+                        <a href=" " class="shop-now ">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-btn ">
+            <div class="slider-btn-left " onclick="plusSlides(-1) ">
+                <span class="slider-btn-icon icon-left fa fa-angle-left "></span>
+            </div>
+            <div class="slider-btn-right " onclick="plusSlides(+1) ">
+                <span class="slider-btn-icon icon-right fa fa-angle-right "></span>
+            </div>
+        </div>
+    </div>
+    <!-- End slider -->
+    <div class="products ">
+        <div class="container ">
+
+            <!-- Service  -->
+            <div class="service-box ">
+                <div class="service service-cart">
+                    <div class="service-icon ">
+                        <img src="./asset/image/cart-service.png " alt=" " class="service-img ">
+                    </div>
+                    <div class="service-content ">
+                        <h4 class="service-name ">Free Shipping</h4>
+                        <p class="service-name-content ">Free shipping for all US order</p>
+                    </div>
+                </div>
+                <div class="service service-support">
+                    <div class="service-icon ">
+                        <img src="./asset/image/headphone.png " alt=" " class="service-img ">
+                    </div>
+                    <div class="service-content ">
+                        <h4 class="service-name">Support 24/7</h4>
+                        <p class="service-name-content ">We support 24 hours a day</p>
+                    </div>
+                </div>
+                <div class="service service-return">
+                    <div class="service-icon ">
+                        <img src="./asset/image/icon-service-third.png " alt=" " class="service-img ">
+                    </div>
+                    <div class="service-content ">
+                        <h4 class="service-name ">30 days return</h4>
+                        <p class="service-name-content ">You have 30 days to return</p>
+                    </div>
+                </div>
+                <div class="service service-payment">
+                    <div class="service-icon ">
+                        <img src="./asset/image/payment-service.png " alt=" " class="service-img ">
+                    </div>
+                    <div class="service-content ">
+                        <h4 class="service-name ">Secure Payments</h4>
+                        <p class="service-name-content ">100% Secure & Safe</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service -->
+            <!-- Banner -->
+            <div class="banner">
+                <div class="container">
+                    <div class="banner-box row">
+                        <div class="banner-biggest col m-col-full">
+                            <div class="biggest-box-img">
+                                <img src="./asset/image/banner1.png" alt="" class="biggest-img">
+
+                            </div>
+                            <div class="time">
+                                <div class="clock day">
+                                    <p class="amount">230</p>
+                                    <p class="unit">days</p>
+                                </div>
+                                <div class="clock hour">
+                                    <p class="amount">24</p>
+                                    <p class="unit">hrs</p>
+                                </div>
+                                <div class="clock minute">
+                                    <p class="amount">40</p>
+                                    <p class="unit">mins</p>
+                                </div>
+                                <div class="clock sec">
+                                    <p class="amount">60</p>
+                                    <p class="unit">sec</p>
+                                </div>
+                            </div>
+                            <div class="banner-biggest-content">
+                                <h3 class="slogan">Beauty & Cosmetics</h3>
+                                <p class="sale">Sale up to <span class="percent">40% </span>off</p>
+                            </div>
+                        </div>
+                        <div class="banner-smaller col m-col-full">
+                            <div class="banner-top ">
+                                <div class="top-box-img">
+                                    <img src="./asset/image/banner-2.png" alt="" class="top-img">
+                                </div>
+                                <div class="banner-top-content">
+
+                                    <h3 class="discount">
+                                        30%
+                                    </h3>
+                                    <p class="discount-percent">Discount</p>
+                                    <p class="discount-content">For Dietary Supplement</p>
+                                </div>
+                            </div>
+                            <div class="banner-bottom ">
+                                <div class="bottom-box-img">
+                                    <img src="./asset/image/banner3.png" alt="" class="bottom-img">
+                                </div>
+                                <div class="banner-bottom-content">
+
+                                    <h3 class="title">
+                                        Accessories
+                                    </h3>
+                                    <p class="sale">Sale up to
+                                        <span class="sale-discount">20%</span> off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Banner -->
+
+            <!-- Top selling -->
+            <div class="top-selling ">
+                <div class="container">
+                    <div class="top-selling-title">
+                        <div class="title-box">
+                            <h4 class="product-title">Products</h4>
+                            <h3 class="title">Top selling</h3>
+                        </div>
+                        <div class="slide-btn">
+                            <span class="slide-btn-left ti-angle-left " onclick="plus(-1)"></span>
+                            <span class="slide-btn-right ti-angle-right " onclick="plus(+1)"></span>
+                        </div>
+                    </div>
+                    <div class="box-list list-1 scroll">
+                        <div class="list-product row">
+                            <a href="">
+                                <div class="product-detail product-1 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp1.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Nature's Bounty Biotin 10000 MCG</a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-2 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp2.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Best Colon Detox Formula 
+                                    Advanced Colon</a>
+                                        <span class="product-price-discount"> $35.00</span>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-3 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp3.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Natural Factors Vitamin C
+                                    Blueberry Rasp</a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-4 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp4.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Jarrow Formulas
+                                        Methylcobalamin
+                                       
+                                       
+                                    
+                                    </a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-5 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp5.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Nature's Bounty Biotin 10000 MCG</a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-6 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp6.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Best Colon Detox Formula 
+                                    Advanced Colon... 
+                                </a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-7 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp7.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Natural Factors Vitamin C
+                                Blueberry Rasp... </a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-8 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp8.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Jarrow Formulas
+                                    Methylcobalamin</a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="box-list list-2 scroll">
+                        <div class="list-product row">
+                            <a href="">
+                                <div class="product-detail product-1 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp8.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Nature's Bounty Biotin 10000 MCG</a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-2 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp7.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Best Colon Detox Formula 
+                                    Advanced Colon</a>
+                                        <span class="product-price-discount">$35.00</span>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-3 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp6.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Natural Factors Vitamin C
+                                    Blueberry Rasp</a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-4 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp5.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Jarrow Formulas
+                                        Methylcobalamin
+                                       
+                                       
+                                    
+                                    </a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-5 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp4.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Nature's Bounty Biotin 10000 MCG</a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-6 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp3.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Best Colon Detox Formula 
+                                    Advanced Colon... 
+                                </a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-7 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp2.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Natural Factors Vitamin C
+                                Blueberry Rasp... </a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-detail product-8 col col-4 m-col-full l-col-3">
+                                    <div class="product-img-box">
+
+                                        <img src="./asset/image/sp1.png" alt="" class="product-img">
+                                    </div>
+                                    <div class="product-content">
+                                        <a href="#" class="product-name">Jarrow Formulas
+                                    Methylcobalamin</a>
+                                        <span class="product-price">$30.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- End top-selling -->
+        </div>
+    </div>
+    <div class="latest-new ">
+        <div class="container">
+            <div class="latest-new-title">
+                <h3 class="big-title">Hot news</h3>
+                <h3 class="small-title">Latest news</h3>
+            </div>
+            <div class="carousel row">
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-1.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Probiotics may help battle antibiotic resistance Probiotics may help</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-2.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Study overturns what we know about kidney stones</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-3.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Hair loss: Scientists test wearable regrowth device</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-1.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Probiotics may help battle antibiotic resistance Probiotics may help</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-2.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Study overturns what we know about kidney stones</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-3.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Hair loss: Scientists test wearable regrowth device</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-1.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Probiotics may help battle antibiotic resistance Probiotics may help</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-2.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Study overturns what we know about kidney stones</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item col col-3">
+                    <a href="#" class="carousel-link">
+                        <div class="img-box">
+                            <img src="./asset/image/last-test-3.jpg" alt="" class="carousel-img">
+                        </div>
+                        <div class="carousel-content">
+                            <h4 class="desc">Hair loss: Scientists test wearable regrowth device</h4>
+                            <p class="desc-time">14 June 2018 by <span class="admin">Admin</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="new-letter ">
+        <div class="new-letter-container">
+            <div class="new-letter-title">
+                <h3 class="letter-bigger">Keep Updated & Get Unlimited Discount</h3>
+                <p class="letter-smaller">Sign up for our newsletter to receive updates and exclusive offers</p>
+            </div>
+            <div class="new-letter-form">
+                <form action="" class="letter-form">
+                    <input type="text" class="letter-input" placeholder="Enter your email address here">
+                    <button class="letter-btn">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="brands">
+        <div class="container">
+            <div class="brand-box s-brand-box row">
+                <div class="brand-box-img col col-5 ">
+                    <a href="">
+
+                        <img src="./asset/image/brand1.png" alt="" class="brand-img ">
+                    </a>
+                </div>
+                <div class="brand-box-img col col-5">
+                    <a href="">
+
+                        <img src="./asset/image/brand2.png" alt="" class="brand-img ">
+                    </a>
+                </div>
+                <div class="brand-box-img col col-5">
+                    <a href="">
+
+                        <img src="./asset/image/brand3.png" alt="" class="brand-img ">
+                    </a>
+                </div>
+                <div class="brand-box-img col col-5">
+                    <a href="">
+
+                        <img src="./asset/image/brand4.png" alt="" class="brand-img ">
+                    </a>
+                </div>
+                <div class="brand-box-img col col-5">
+                    <a href="">
+
+                        <img src="./asset/image/brand5.png" alt="" class="brand-img ">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="container">
+            <div class="information">
+                <div class="info-box">
+                    <div class="info-item contact">
+                        <h3 class="info-title">Contact us</h3>
+                        <div class="info-detail contact-detail">
+                            <a href="" class="map contact-item "><i class="map-icon contact-icon fa fa-map-marker"></i><p>Lorem ipsim has been industry's standard</p></a>
+                            <a href="mailto:contact@medic.com" class="email contact-item "><i class="email-icon contact-icon fa fa-envelope-o"></i><p>contact@medic.com</p></a>
+                            <a href="tel:+84 (1) 234567891" class="phone contact-item "><i class="phone-icon contact-icon fa fa-mobile"></i><p>+84 (1) 234567891</p></a>
+                        </div>
+                        <div class="social">
+                            <span class="social-icon fa fa-facebook"></span>
+                            <span class="social-icon twiter fa fa-twitter"></span>
+                            <span class="social-icon gg ti-google"></span>
+                            <span class="social-icon fa fa-instagram"></span>
+                        </div>
+                    </div>
+                    <div class="info-item company">
+                        <h3 class="info-title">Company</h3>
+                        <div class="info-detail">
+                            <a href="#" class="info-detail-company">About us</a>
+                            <a href="#" class="info-detail-company">Team member</a>
+                            <a href="#" class="info-detail-company">Carrer</a>
+                            <a href="#" class="info-detail-company">Contact</a>
+                            <a href="#" class="info-detail-company">Affilate</a>
+                        </div>
+                    </div>
+                    <div class="info-item categories">
+                        <h3 class="info-title">Categoris</h3>
+                        <div class="info-detail">
+                            <a href="#" class="info-detail-categories">Home medicine</a>
+                            <a href="#" class="info-detail-categories">Baby & child</a>
+                            <a href="#" class="info-detail-categories">Diet & Nutrition</a>
+                            <a href="#" class="info-detail-categories">Beauty</a>
+                            <a href="#" class="info-detail-categories">Fitness & vitamins</a>
+                        </div>
+                    </div>
+                    <div class="info-item quick-links">
+                        <h3 class="info-title">Quick links</h3>
+                        <div class="info-detail">
+                            <a href="#" class="info-detail-quick">My account</a>
+                            <a href="#" class="info-detail-quick">Store Location</a>
+                            <a href="#" class="info-detail-quick">Orders Tracking</a>
+                            <a href="#" class="info-detail-quick">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="copyrights">
+        <div class="container">
+            <div class="copyrights-box">
+                <div class="copyright-content">
+                    <p class="text">@2018 Design by <a class="text-link" href="#">Creative Wp</a>. All Rights Reserved</p>
+                </div>
+
+                <div class="copyright-banks">
+                    <img src="./asset/image/payment.png" alt="" class="banks-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./asset/js/jquery.min.js "></script>
+    <script src="./asset/js/slick-1.8.1/slick/slick.js"></script>
+    <script src="./asset/js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./asset/js/suggestions.js"></script>
+    <script src="./asset/js/top_selling_btn.js"></script>
+    <script src="./asset/js/main.js "></script>
+</body>
+
+</html>
